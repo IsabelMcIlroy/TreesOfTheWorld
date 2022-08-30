@@ -1,6 +1,17 @@
 .worldMap{
-    margin-left: 20px
+    margin-left: 20px;
+}
+.map{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+*{
+    fill:#4c7245;
+    background-color: #c4c7f5;
+    stroke: #000000;
+    stroke-width: 1;
 }
 #AF:hover{
-    background-color: blueviolet;
+    fill: blueviolet;
+    
 }
