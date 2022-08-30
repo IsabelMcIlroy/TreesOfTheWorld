@@ -6,7 +6,7 @@
     min-height: 100vh;
 }
 *{
-    fill:#4c7245;
+    fill: #4c7245;
     background-color: #c4c7f5;
     stroke: #000000;
     stroke-width: 1;
@@ -14,4 +14,13 @@
 #AF:hover{
     fill: blueviolet;
     
+}
+#CA:hover{
+    fill: #5e2424;
+}
+#US:hover{
+    fill: #b8cae2;
+}
+#GB:hover{
+    fill: #243d5e
 }
