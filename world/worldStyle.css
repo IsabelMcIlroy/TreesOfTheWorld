@@ -1,9 +1,11 @@
+
 .worldMap{
-    margin-left: 20px;
+    justify-content: center;
+    display: flex;
 }
 .map{
-    min-width: 100vw;
-    min-height: 100vh;
+    min-width: 1009.6727px;
+    min-height: 665.96301px;
 }
 *{
     fill: #4c7245;
@@ -13,7 +15,6 @@
 }
 #AF:hover{
     fill: blueviolet;
-    
 }
 #CA:hover{
     fill: #5e2424;
