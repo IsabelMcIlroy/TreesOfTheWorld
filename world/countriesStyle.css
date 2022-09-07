@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: clamp(2rem, 1rem + 10vw, 7rem);
+    color: darkolivegreen;
+    margin: 0;
+    line-height: .75;
+}
+.Logo{
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: clamp(.5rem, 1rem + 10vw, 3rem);
+        color: darkolivegreen;
+        margin: 0;
+        line-height: .5;
+}
+.LogoBox{
+    margin: 24px;
+}
