@@ -14,6 +14,12 @@ h1{
         color: darkolivegreen;
         margin: 0;
         line-height: .5;
+        text-align: center;
+}
+.small{
+    font-size: clamp(.5rem, 1rem + 5vw, 2rem); 
+    font-weight: bold;
+    vertical-align: middle;
 }
 .LogoBox{
     margin: 24px;
