@@ -1,11 +1,13 @@
 
 .worldMap{
+    width: 100vw;
     justify-content: center;
-    display: flex;
+    display: grid;
 }
 .map{
     min-width: 1009.6727px;
     min-height: 665.96301px;
+    margin: 0 auto;
 }
 *{
     fill: #4c7245;
