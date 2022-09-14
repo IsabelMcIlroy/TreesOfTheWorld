@@ -1,4 +1,10 @@
-
+*{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: darkolivegreen;
+}
+p{
+    color:#121b11
+}
 .worldMap{
     width: 100vw;
     justify-content: center;
