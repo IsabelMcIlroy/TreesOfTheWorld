@@ -23,6 +23,9 @@ p{
 .modal{
     background: none;
 }
+.modal-dialog{
+    height: fit-content;
+}
 #AF:hover{
     fill: blueviolet;
 }
