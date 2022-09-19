@@ -24,7 +24,10 @@ p{
     background: none;
 }
 .modal-dialog{
-    height: fit-content;
+    border-radius: 8px;
+}
+.modal-body{
+    background-color: aliceblue;
 }
 #AF:hover{
     fill: blueviolet;
