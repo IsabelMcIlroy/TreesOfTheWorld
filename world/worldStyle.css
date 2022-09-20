@@ -29,15 +29,7 @@ p{
 .modal-body{
     background-color: aliceblue;
 }
-#AF:hover{
-    fill: blueviolet;
-}
-#CA:hover{
-    fill: #5e2424;
-}
-#US:hover{
-    fill: #b8cae2;
-}
-#GB:hover{
-    fill: #243d5e
+
+.countryHover:hover{
+    fill: #2f462b;
 }
