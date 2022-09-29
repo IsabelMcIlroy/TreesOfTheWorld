@@ -29,6 +29,9 @@ p{
 .modal-body{
     background-color: aliceblue;
 }
+.modal-tree-source{
+    padding: 0 1rem;
+}
 
 .countryHover:hover{
     fill: #2f462b;
