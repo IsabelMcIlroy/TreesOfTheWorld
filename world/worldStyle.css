@@ -31,6 +31,7 @@ p{
 }
 .modal-tree-source{
     padding: 0 1rem;
+    font-size: small;
 }
 
 .countryHover:hover{
