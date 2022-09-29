@@ -15,9 +15,7 @@ exampleModal.addEventListener("show.bs.modal", (event) => {
 });
 
 getModalSource = (modalTreeSource, modalTreeName) => {
-  if (modalTreeName.textContent === "Maple (Acer)") {
-    modalTreeSource.textContent = "maple tree";
-  } else if (modalTreeName.textContent === "Ghaf Tree (Prosopis Cineraria)") {
+  if (modalTreeName.textContent === "Ghaf Tree (Prosopis Cineraria)") {
     modalTreeSource.textContent =
       "By LRBurdak - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3945050";
   } else if (modalTreeName.textContent === "Mulberry (Morus Nigra)") {
@@ -35,6 +33,36 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   } else if (modalTreeName.textContent === "Ceibo (Erythrina Crista-galli)") {
     modalTreeSource.textContent =
       "CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=609251";
+  } else if (modalTreeName.textContent === "Golden Wattle (Acadia Pycnantha)") {
+    modalTreeSource.textContent =
+      "By Bidgee - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=3799676";
+  } else if (modalTreeName.textContent === "Mango Tree (Mangifera Indica)") {
+    modalTreeSource.textContent =
+      "By AbhijithDA - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15408963";
+  } else if (
+    modalTreeName.textContent === "Brazilwood (Caesalphinia Echinata)"
+  ) {
+    modalTreeSource.textContent =
+      "By Mauroguanandi - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8425431";
+  } else if (modalTreeName.textContent === "Lignum Vitae (Guaiacum Sanctum)") {
+    modalTreeSource.textContent =
+      "By Ibbel - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=6767032";
+  } else if (
+    modalTreeName.textContent === "Bhutan Cypress (Cupressus Cashmeriana)"
+  ) {
+    modalTreeSource.textContent =
+      "By Whiteghost.ink - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=82574066";
+  } else if (modalTreeName.textContent === "Oak (Quercus Robur)") {
+    modalTreeSource.textContent =
+      "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
+  } else if (
+    modalTreeName.textContent === "Honduras Mahogany (Swietenia Macrophylla)"
+  ) {
+    modalTreeSource.textContent =
+      "By Dorian Axel Ramos Nuñez - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=111659642";
+  } else if (modalTreeName.textContent === "Maple (Acer)") {
+    modalTreeSource.textContent =
+      "By Bruce Marlin - Own work http://www.cirrusimage.com/tree_maple_sugar.htm, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=2611206";
   } else {
     modalTreeSource.textContent = "ops";
   }
