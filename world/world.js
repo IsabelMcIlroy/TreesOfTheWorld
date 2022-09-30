@@ -27,7 +27,10 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   } else if (modalTreeName.textContent === "Olive (Olea Europaea)") {
     modalTreeSource.textContent =
       "By Emanuele.tommasino - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=4528350";
-  } else if (modalTreeName.textContent === "Baobab (Adansonia Digiata)") {
+  } else if (
+    modalTreeName.textContent === "Baobab (Adansonia Digiata)" ||
+    "Babobab (Adansonia)"
+  ) {
     modalTreeSource.textContent =
       "By Ferdinand Reus from Arnhem, Holland - Two old ones, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=2615710";
   } else if (modalTreeName.textContent === "Ceibo (Erythrina Crista-galli)") {
@@ -55,7 +58,8 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   } else if (
     modalTreeName.textContent === "Oak (Quercus Robur)" ||
     "Royal Oak (Quercus Robur)" ||
-    "Pedunculate Oak (Quercus Robur)"
+    "Pedunculate Oak (Quercus Robur)" ||
+    "Sessile Oak (Quercus Penaea)"
   ) {
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
@@ -109,9 +113,61 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   } else if ((modalTreeName.textContent = "Silver Birch (Betula Pendula)")) {
     modalTreeSource.textContent =
       "By Abc10 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=62078096";
-  } else if ((modalTreeName.textContent = "Silver Birch (Betula Pendula)")) {
+  } else if ((modalTreeName.textContent = "Ceiba (Ceiba Pentadra)")) {
     modalTreeSource.textContent =
-      "By Abc10 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=62078096";
+      "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=62146";
+  } else if ((modalTreeName.textContent = "Royal Palm (Roystonea)")) {
+    modalTreeSource.textContent =
+      "Public Domain, https://commons.wikimedia.org/w/index.php?curid=933944";
+  } else if ((modalTreeName.textContent = "Teak (Tectona)")) {
+    modalTreeSource.textContent =
+      "By Vengolis - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=50568881";
+  } else if (
+    (modalTreeName.textContent = "Indian Banyan (Ficus Benghalensis)")
+  ) {
+    modalTreeSource.textContent =
+      "CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=77253191";
+  } else if (
+    (modalTreeName.textContent =
+      "Mediterranean Cypress (Cupressus Sempervirens)")
+  ) {
+    modalTreeSource.textContent =
+      "By TruthBeethoven - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=19259985";
+  } else if ((modalTreeName.textContent = "Strawberry Tree (Arbutus Unedo)")) {
+    modalTreeSource.textContent =
+      "By Basotxerri - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=54956290";
+  } else if ((modalTreeName.textContent = "Blue Mahoe (Talipartiti Elatum)")) {
+    modalTreeSource.textContent =
+      "By Jamrock1962 - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=7999014";
+  } else if (
+    (modalTreeName.textContent = "Japanese Cherry Blossom (Prunus Serrulata)")
+  ) {
+    modalTreeSource.textContent =
+      "By SLIMHANNYA - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=68232132";
+  } else if (
+    (modalTreeName.textContent = "Palmyra Palm (Borassus Flabellifer)")
+  ) {
+    modalTreeSource.textContent =
+      "By AntanO - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=42997499";
+  } else if ((modalTreeName.textContent = "Pine (Pinus)")) {
+    modalTreeSource.textContent =
+      "By yeowatzup at Flickr - Flickr, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=6224565";
+  } else if (
+    (modalTreeName.textContent = "Pinus Densifolora (Hibiscus Syriacus)")
+  ) {
+    modalTreeSource.textContent =
+      "CC BY 1.0, https://commons.wikimedia.org/w/index.php?curid=250019";
+  } else if ((modalTreeName.textContent = "Frangipani (Plumeria)")) {
+    modalTreeSource.textContent =
+      "By Zachi Evenor and User:MathKnight - Flickr: https://www.flickr.com/photos/zachievenor/14466596955/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=33494319";
+  } else if ((modalTreeName.textContent = "Lenanon Ceadar (Cedrus Libani)")) {
+    modalTreeSource.textContent =
+      "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=554679";
+  } else if (
+    (modalTreeName.textContent = "Sri Lankan Ironwood (Mesua Nagassarium)")
+  ) {
+    modalTreeSource.textContent =
+      "By Benvda - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4119869";
   } else {
     modalTreeSource.textContent = "ops";
   }
