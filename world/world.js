@@ -52,7 +52,11 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   ) {
     modalTreeSource.textContent =
       "By Whiteghost.ink - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=82574066";
-  } else if (modalTreeName.textContent === "Oak (Quercus Robur)") {
+  } else if (
+    modalTreeName.textContent === "Oak (Quercus Robur)" ||
+    "Royal Oak (Quercus Robur)" ||
+    "Pedunculate Oak (Quercus Robur)"
+  ) {
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (
@@ -63,6 +67,51 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   } else if (modalTreeName.textContent === "Maple (Acer)") {
     modalTreeSource.textContent =
       "By Bruce Marlin - Own work http://www.cirrusimage.com/tree_maple_sugar.htm, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=2611206";
+  } else if (modalTreeName.textContent === "Araucaria (Araucaria Araucana)") {
+    modalTreeSource.textContent =
+      "By Vicente Fernández Rioja - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=70557515";
+  } else if (
+    modalTreeName.textContent === "Quindio Wax Palm (Ceroxylon Quindiuense)"
+  ) {
+    modalTreeSource.textContent =
+      "By Bernard Gagnon - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=98914270";
+  } else if (
+    (modalTreeName.textContent = "Guanacaste (Enterolobium Cyclocarpum)")
+  ) {
+    modalTreeSource.textContent =
+      "By Avancari - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4744912";
+  } else if (
+    (modalTreeName.textContent = "Cuban Royal Palm (Roystonea Regia)")
+  ) {
+    modalTreeSource.textContent =
+      "By SKsiddhartthan - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=67402294";
+  } else if ((modalTreeName.textContent = "Golden Oak (Quercus Alnifolia)")) {
+    modalTreeSource.textContent =
+      "By Chneophytou - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3411341";
+  } else if (
+    (modalTreeName.textContent = "Small-leaved Lime (Tilia Cordata)")
+  ) {
+    modalTreeSource.textContent =
+      "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=56153";
+  } else if ((modalTreeName.textContent = "European Beech (Fagus Sylvatica)")) {
+    modalTreeSource.textContent =
+      "By GooseCanada - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=59521908";
+  } else if (
+    (modalTreeName.textContent = "West Indian Mahogany (Swietenia Mahagoni)")
+  ) {
+    modalTreeSource.textContent =
+      "By I, J.M.Garg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2602306";
+  } else if (
+    (modalTreeName.textContent = "Cinchona Pubescens (Cinchona Pubescens)")
+  ) {
+    modalTreeSource.textContent =
+      "Public Domain, https://commons.wikimedia.org/w/index.php?curid=78907";
+  } else if ((modalTreeName.textContent = "Silver Birch (Betula Pendula)")) {
+    modalTreeSource.textContent =
+      "By Abc10 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=62078096";
+  } else if ((modalTreeName.textContent = "Silver Birch (Betula Pendula)")) {
+    modalTreeSource.textContent =
+      "By Abc10 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=62078096";
   } else {
     modalTreeSource.textContent = "ops";
   }
