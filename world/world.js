@@ -168,6 +168,36 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   ) {
     modalTreeSource.textContent =
       "By Benvda - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4119869";
+  } else if ((modalTreeName.textContent = "Macedonian Pine (Pinus Peuce)")) {
+    modalTreeSource.textContent =
+      "By BotBln - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1410212";
+  } else if (
+    (modalTreeName.textContent = "Charghar (Tetraclinis Articulata)")
+  ) {
+    modalTreeSource.textContent =
+      "By Nanosanchez - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=6425460";
+  } else if ((modalTreeName.textContent = "Coconut Palm (Cocos Nucifera)")) {
+    modalTreeSource.textContent =
+      "By Stephen Glauseruploaded to Wikimedia Commons by Teinesavaii - originally posted to Flickr as Return to Paradise Beach. All to ourselves., CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=8690508";
+  } else if ((modalTreeName.textContent = "Ahuehuete (Taxodium Mucronatum)")) {
+    modalTreeSource.textContent =
+      "By Luisalvaz - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=39290623";
+  } else if (
+    (modalTreeName.textContent = "Borneo/Malacca Teak (Intsia Palembanica)")
+  ) {
+    modalTreeSource.textContent =
+      "By filibot.web - https://www.flickr.com/photos/filibot/8003919056, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=82148719";
+  } else if (
+    (modalTreeName.textContent = "Lemonwood (Calycophyllum Candidissimum)")
+  ) {
+    modalTreeSource.textContent =
+      "By Byralaal - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=36551232";
+  } else if ((modalTreeName.textContent = "Rhodendron (Rhododendron)")) {
+    modalTreeSource.textContent =
+      "By Brisbane City Council - Azalea as a Bonsai, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=23625694";
+  } else if ((modalTreeName.textContent = "Silver Fern (Cyathea Dealbata)")) {
+    modalTreeSource.textContent =
+      "By Tatania Gerus - https://www.flickr.com/photos/tgerus/2349086151/in/set-72157604396543621, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=4145474";
   } else {
     modalTreeSource.textContent = "ops";
   }
