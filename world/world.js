@@ -7,14 +7,15 @@ exampleModal.addEventListener("show.bs.modal", (event) => {
   const modalTreeName = exampleModal.querySelector(".modal-tree-name");
   const modalTreeImage = exampleModal.querySelector(".modal-tree-image");
   const modalTreeSource = exampleModal.querySelector(".modal-tree-source");
+  const modalTreeFact = exampleModal.querySelector(".modal-tree-fact");
 
   modalTitle.textContent = country + " National Tree";
   modalTreeName.textContent = tree;
   modalTreeImage.src = "./trees/" + tree + ".jpg";
-  getModalSource(modalTreeSource, modalTreeName);
+  getModalSourceAndFact(modalTreeSource, modalTreeName, modalTreeFact);
 });
 
-getModalSource = (modalTreeSource, modalTreeName) => {
+getModalSourceAndFact = (modalTreeSource, modalTreeName, modalTreeFact) => {
   if (modalTreeName.textContent === "Ghaf Tree (Prosopis Cineraria)") {
     modalTreeSource.textContent =
       "By LRBurdak - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3945050";
@@ -27,10 +28,10 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   } else if (modalTreeName.textContent === "Olive (Olea Europaea)") {
     modalTreeSource.textContent =
       "By Emanuele.tommasino - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=4528350";
-  } else if (
-    modalTreeName.textContent === "Baobab (Adansonia Digiata)" ||
-    "Babobab (Adansonia)"
-  ) {
+  } else if (modalTreeName.textContent === "Baobab (Adansonia Digiata)") {
+    modalTreeSource.textContent =
+      "By Ferdinand Reus from Arnhem, Holland - Two old ones, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=2615710";
+  } else if (modalTreeName.textContent === "Babobab (Adansonia)") {
     modalTreeSource.textContent =
       "By Ferdinand Reus from Arnhem, Holland - Two old ones, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=2615710";
   } else if (modalTreeName.textContent === "Ceibo (Erythrina Crista-galli)") {
@@ -55,12 +56,16 @@ getModalSource = (modalTreeSource, modalTreeName) => {
   ) {
     modalTreeSource.textContent =
       "By Whiteghost.ink - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=82574066";
-  } else if (
-    modalTreeName.textContent === "Oak (Quercus Robur)" ||
-    "Royal Oak (Quercus Robur)" ||
-    "Pedunculate Oak (Quercus Robur)" ||
-    "Sessile Oak (Quercus Penaea)"
-  ) {
+  } else if (modalTreeName.textContent === "Sessile Oak (Quercus Penaea)") {
+    modalTreeSource.textContent =
+      "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
+  } else if (modalTreeName.textContent === "Pedunculate Oak (Quercus Robur)") {
+    modalTreeSource.textContent =
+      "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
+  } else if (modalTreeName.textContent === "Oak (Quercus Robur)") {
+    modalTreeSource.textContent =
+      "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
+  } else if (modalTreeName.textContent === "Royal Oak (Quercus Robur)") {
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (
@@ -69,6 +74,7 @@ getModalSource = (modalTreeSource, modalTreeName) => {
     modalTreeSource.textContent =
       "By Dorian Axel Ramos Nuñez - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=111659642";
   } else if (modalTreeName.textContent === "Maple (Acer)") {
+    modalTreeFact.textContent = "test";
     modalTreeSource.textContent =
       "By Bruce Marlin - Own work http://www.cirrusimage.com/tree_maple_sugar.htm, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=2611206";
   } else if (modalTreeName.textContent === "Araucaria (Araucaria Araucana)") {
