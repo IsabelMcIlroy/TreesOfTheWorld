@@ -17,85 +17,130 @@ exampleModal.addEventListener("show.bs.modal", (event) => {
 
 getModalSourceAndFact = (modalTreeSource, modalTreeName, modalTreeFact) => {
   if (modalTreeName.textContent === "Ghaf Tree (Prosopis Cineraria)") {
+    modalTreeFact.textContent =
+      "P. cineraria is a small tree, ranging in height from 3 to 5 m (9.8 to 16.4 ft). The leaves are bipinnate, with seven to fourteen leaflets on each of one to three pinnae. Branches are thorned along the internodes. Flowers are small and creamy-yellow, and followed by seeds in pods. The tree is found in extremely arid conditions, with rainfall as low as 15 cm (5.9 in) annually; but is indicative of the presence of a deep water table. As with some other Prosopis spp., P. cineraria has demonstrated a tolerance of highly alkaline and saline environments. -wikipedia";
     modalTreeSource.textContent =
       "By LRBurdak - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3945050";
   } else if (modalTreeName.textContent === "Mulberry (Morus Nigra)") {
+    modalTreeFact.textContent =
+      "The fruit is a compound cluster of several small drupes that are dark purple, almost black when ripe, and they are 2.5 cm (1 in) in diameter. Black mulberry is richly flavoured -wikipedia";
     modalTreeSource.textContent =
       "By Kokai, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=9118495";
   } else if (modalTreeName.textContent === "Whitewood (Bucida Buceras)") {
+    modalTreeFact.textContent =
+      "The wood of the bullet tree is extremely hard and durable. Being highly resistant to insects and fungi, it is sometimes used for house posts or bridge timbers. The bark may be used for tanning leather due to its tannin content. It is also often used as an ornamental/shade tree -wikipedia";
     modalTreeSource.textContent =
       "By Forest & Kim Starr, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=6146941";
   } else if (modalTreeName.textContent === "Olive (Olea Europaea)") {
+    modalTreeFact.textContent =
+      "The olive tree, Olea europaea, is an evergreen tree or shrub native to Mediterranean Europe, Asia, and Africa. It is short and squat and rarely exceeds 8 to 15 m (25 to 50 ft) in height. 'Pisciottana', a unique variety comprising 40,000 trees found only in the area around Pisciotta in the Campania region of southern Italy, often exceeds this, with correspondingly large trunk diameters. The trunk is typically gnarled and twisted. -wikipedia";
     modalTreeSource.textContent =
       "By Emanuele.tommasino - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=4528350";
   } else if (modalTreeName.textContent === "Baobab (Adansonia Digiata)") {
+    modalTreeFact.textContent =
+      "African baobabs are trees that often grow as solitary individuals, and are large and distinctive elements of savanna or scrubland vegetation. The trunk is typically very broad and fluted or cylindrical, often with a buttressed, spreading base. The fresh flowers have a sweet scent, but after about 24 hours, they start to turn brown and emit a carrion smell. -wikipedia";
     modalTreeSource.textContent =
       "By Ferdinand Reus from Arnhem, Holland - Two old ones, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=2615710";
   } else if (modalTreeName.textContent === "Babobab (Adansonia)") {
+    modalTreeFact.textContent =
+      "African baobabs are trees that often grow as solitary individuals, and are large and distinctive elements of savanna or scrubland vegetation. The trunk is typically very broad and fluted or cylindrical, often with a buttressed, spreading base. The fresh flowers have a sweet scent, but after about 24 hours, they start to turn brown and emit a carrion smell. -wikipedia";
     modalTreeSource.textContent =
       "By Ferdinand Reus from Arnhem, Holland - Two old ones, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=2615710";
   } else if (modalTreeName.textContent === "Ceibo (Erythrina Crista-galli)") {
+    modalTreeFact.textContent =
+      "The flowers are rich in nectar and are visited by insects, which usually have to crawl underneath the carina and thus pollinate the flowers. Seeds The tree's fruit is a legume, a dry pod a few centimeters in length derived from a single carpel and contains about 8-10 chestnut-brown bean-shaped seeds. The cotyledons are hypogeal, staying underground upon germination. -wikipedia";
     modalTreeSource.textContent =
       "CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=609251";
   } else if (modalTreeName.textContent === "Golden Wattle (Acadia Pycnantha)") {
+    modalTreeFact.textContent =
+      "The profuse fragrant, golden flowers appear in late winter and spring, followed by long seed pods. Plants are cross-pollinated by several species of honeyeater and thornbill, which visit nectaries on the phyllodes and brush against flowers, transferring pollen between them. An understorey plant in eucalyptus forest, it is found from southern New South Wales and the Australian Capital Territory, through Victoria and into southeastern South Australia. -wikipedia";
     modalTreeSource.textContent =
       "By Bidgee - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=3799676";
   } else if (modalTreeName.textContent === "Mango Tree (Mangifera Indica)") {
+    modalTreeFact.textContent =
+      "It is a large green tree, valued mainly for its fruits, both green and ripe. Approximately 500 varieties have been reported in India.[3] It can grow up to 15 to 30 metres (50 to 100 feet) tall with a similar crown width and a trunk circumference of more than 3.7 m (12 ft). The leaves are simple, shiny and dark green. - wikipedia";
     modalTreeSource.textContent =
       "By AbhijithDA - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15408963";
   } else if (
     modalTreeName.textContent === "Brazilwood (Caesalphinia Echinata)"
   ) {
+    modalTreeFact.textContent =
+      "When Portuguese explorers found Paubrasilia on the coast of South America, they recognised it as a relative of an Asian species of sappanwood already used in Europe for producing red dye. The Portuguese named these trees pau-brasil, the term pau meaning wood, and brasil meaning reddish/ember-like. The South American trees soon dominated the trading as a better source of dye. Such a vigorous trade resulted from the woods that early sailors and merchants started referring to the land itself as Terra do Brasil, or simply, the 'Land of Brazil', and from this use the present name of Brazil was derived. -wikipedia";
     modalTreeSource.textContent =
       "By Mauroguanandi - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8425431";
   } else if (modalTreeName.textContent === "Lignum Vitae (Guaiacum Sanctum)") {
+    modalTreeFact.textContent =
+      "The wood has been used for making specific parts of ships that needed to be self-lubricating so that they would last longer. -wikipedia";
     modalTreeSource.textContent =
       "By Ibbel - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=6767032";
   } else if (
     modalTreeName.textContent === "Bhutan Cypress (Cupressus Cashmeriana)"
   ) {
+    modalTreeFact.textContent =
+      "The foliage grows in strongly pendulous sprays of blue-green, very slender, flattened shoots. - wikipedia";
     modalTreeSource.textContent =
       "By Whiteghost.ink - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=82574066";
   } else if (modalTreeName.textContent === "Sessile Oak (Quercus Penaea)") {
+    modalTreeFact.textContent =
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (modalTreeName.textContent === "Pedunculate Oak (Quercus Robur)") {
+    modalTreeFact.textContent =
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (modalTreeName.textContent === "Oak (Quercus Robur)") {
+    modalTreeFact.textContent =
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (modalTreeName.textContent === "Royal Oak (Quercus Robur)") {
+    modalTreeFact.textContent =
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (
     modalTreeName.textContent === "Honduras Mahogany (Swietenia Macrophylla)"
   ) {
+    modalTreeFact.textContent =
+      "Mahogany wood is strong and is usually a source for furniture, musical instruments, ships, doors, coffins, decors. -wikipedia";
     modalTreeSource.textContent =
       "By Dorian Axel Ramos Nuñez - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=111659642";
   } else if (modalTreeName.textContent === "Maple (Acer)") {
-    modalTreeFact.textContent = "test";
+    modalTreeFact.textContent =
+      "The closest relative of Acer is Dipteronia, which only has two living species in China, but has a fossil record extending back to the middle Paleocene in North America. The oldest known fossils of Acer are from the late Paleocene of Northeast Asia and northern North America, around 60 million years old. The oldest fossils of Acer in Europe are from Svalbard, dating to the late Eocene (Priabonian ~38-34 million years old). -wikipedia";
     modalTreeSource.textContent =
       "By Bruce Marlin - Own work http://www.cirrusimage.com/tree_maple_sugar.htm, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=2611206";
   } else if (modalTreeName.textContent === "Araucaria (Araucaria Araucana)") {
+    modalTreeFact.textContent =
+      "The origin of the popular English language name 'monkey puzzle' derives from its early cultivation in Britain in about 1850, when the species was still very rare in gardens and not widely known. Sir William Molesworth, the owner of a young specimen at Pencarrow garden near Bodmin in Cornwall, was showing it to a group of friends, when one of them the noted barrister and Benthamist Charles Austin remarked, 'It would puzzle a monkey to climb that'. As the species had no existing popular name, first 'monkey puzzler', then 'monkey puzzle' stuck. - wikipedia";
     modalTreeSource.textContent =
       "By Vicente Fernández Rioja - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=70557515";
   } else if (
     modalTreeName.textContent === "Quindio Wax Palm (Ceroxylon Quindiuense)"
   ) {
+    modalTreeFact.textContent =
+      "This palm species can grow to a height of 45 m (148 ft) —or rarely, even as high as 60 m (200 ft). It is the tallest recorded monocot in the world. The trunk is cylindrical, smooth, light colored, covered with wax; leaf scars forming dark rings around the trunk. -wikipedia";
     modalTreeSource.textContent =
       "By Bernard Gagnon - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=98914270";
   } else if (
     (modalTreeName.textContent = "Guanacaste (Enterolobium Cyclocarpum)")
   ) {
+    modalTreeFact.textContent =
+      "Enterolobium cyclocarpum, commonly known as guanacaste, caro caro, monkey-ear tree, or elephant-ear tree, is a species of flowering tree in the pea family, Fabaceae, that is native to tropical regions of the Americas, from central Mexico south to northern Brazil (Roraima) and Venezuela. It is known for its large proportions, expansive, often spherical crown, and curiously shaped seedpods. -wikipedia";
     modalTreeSource.textContent =
       "By Avancari - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4744912";
   } else if (
     (modalTreeName.textContent = "Cuban Royal Palm (Roystonea Regia)")
   ) {
+    modalTreeFact.textContent =
+      "Widely planted as an ornamental, R. regia is also used for thatch, and construction timber. The fruit is eaten by birds and bats (which disperse the seeds) and fed to livestock. Its flowers are visited by birds and bats, and it serves as a roosting site and food source for a variety of animals. - wikipedia";
     modalTreeSource.textContent =
       "By SKsiddhartthan - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=67402294";
   } else if ((modalTreeName.textContent = "Golden Oak (Quercus Alnifolia)")) {
+    modalTreeFact.textContent =
+      "The golden oak is a much branched evergreen shrub or small tree up to 10 metres (33 feet) high. Due to its short stature (in relation to other oaks) it is sometimes referred to as the dwarf oak. -wikipedia";
     modalTreeSource.textContent =
       "By Chneophytou - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3411341";
   } else if (
