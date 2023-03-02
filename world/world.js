@@ -18,7 +18,7 @@ exampleModal.addEventListener("show.bs.modal", (event) => {
 getModalSourceAndFact = (modalTreeSource, modalTreeName, modalTreeFact) => {
   if (modalTreeName.textContent === "Ghaf Tree (Prosopis Cineraria)") {
     modalTreeFact.textContent =
-      "P. cineraria is a small tree, ranging in height from 3 to 5 m (9.8 to 16.4 ft). The leaves are bipinnate, with seven to fourteen leaflets on each of one to three pinnae. Branches are thorned along the internodes. Flowers are small and creamy-yellow, and followed by seeds in pods. The tree is found in extremely arid conditions, with rainfall as low as 15 cm (5.9 in) annually; but is indicative of the presence of a deep water table. As with some other Prosopis spp., P. cineraria has demonstrated a tolerance of highly alkaline and saline environments. -wikipedia";
+      "P. cineraria is a small tree, ranging in height from 3-5 m (9.8-16.4 ft). The leaves are bipinnate, with seven to fourteen leaflets on each of one to three pinnae. Branches are thorned along the internodes. Flowers are small and creamy-yellow, and followed by seeds in pods. The tree is found in extremely arid conditions, with rainfall as low as 15 cm (5.9 in) annually; but is indicative of the presence of a deep water table. As with some other Prosopis spp., P. cineraria has demonstrated a tolerance of highly alkaline and saline environments. -wikipedia";
     modalTreeSource.textContent =
       "By LRBurdak - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3945050";
   } else if (modalTreeName.textContent === "Mulberry (Morus Nigra)") {
@@ -33,7 +33,7 @@ getModalSourceAndFact = (modalTreeSource, modalTreeName, modalTreeFact) => {
       "By Forest & Kim Starr, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=6146941";
   } else if (modalTreeName.textContent === "Olive (Olea Europaea)") {
     modalTreeFact.textContent =
-      "The olive tree, Olea europaea, is an evergreen tree or shrub native to Mediterranean Europe, Asia, and Africa. It is short and squat and rarely exceeds 8 to 15 m (25 to 50 ft) in height. 'Pisciottana', a unique variety comprising 40,000 trees found only in the area around Pisciotta in the Campania region of southern Italy, often exceeds this, with correspondingly large trunk diameters. The trunk is typically gnarled and twisted. -wikipedia";
+      "The olive tree, Olea europaea, is an evergreen tree or shrub native to Mediterranean Europe, Asia, and Africa. It is short and squat and rarely exceeds 8-15 m (25-50 ft) in height. 'Pisciottana', a unique variety comprising 40,000 trees found only in the area around Pisciotta in the Campania region of southern Italy, often exceeds this, with correspondingly large trunk diameters. The trunk is typically gnarled and twisted. -wikipedia";
     modalTreeSource.textContent =
       "By Emanuele.tommasino - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=4528350";
   } else if (modalTreeName.textContent === "Baobab (Adansonia Digiata)") {
@@ -58,7 +58,7 @@ getModalSourceAndFact = (modalTreeSource, modalTreeName, modalTreeFact) => {
       "By Bidgee - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=3799676";
   } else if (modalTreeName.textContent === "Mango Tree (Mangifera Indica)") {
     modalTreeFact.textContent =
-      "It is a large green tree, valued mainly for its fruits, both green and ripe. Approximately 500 varieties have been reported in India.[3] It can grow up to 15 to 30 metres (50 to 100 feet) tall with a similar crown width and a trunk circumference of more than 3.7 m (12 ft). The leaves are simple, shiny and dark green. - wikipedia";
+      "It is a large green tree, valued mainly for its fruits, both green and ripe. Approximately 500 varieties have been reported in India. It can grow up to 15 to 30 metres (50-100 feet) tall with a similar crown width and a trunk circumference of more than 3.7 m (12 ft). The leaves are simple, shiny and dark green. - wikipedia";
     modalTreeSource.textContent =
       "By AbhijithDA - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15408963";
   } else if (
@@ -82,22 +82,22 @@ getModalSourceAndFact = (modalTreeSource, modalTreeName, modalTreeFact) => {
       "By Whiteghost.ink - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=82574066";
   } else if (modalTreeName.textContent === "Sessile Oak (Quercus Penaea)") {
     modalTreeFact.textContent =
-      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6-18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (modalTreeName.textContent === "Pedunculate Oak (Quercus Robur)") {
     modalTreeFact.textContent =
-      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6-18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (modalTreeName.textContent === "Oak (Quercus Robur)") {
     modalTreeFact.textContent =
-      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6-18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (modalTreeName.textContent === "Royal Oak (Quercus Robur)") {
     modalTreeFact.textContent =
-      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6 to 18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
+      "The fruit is a nut called an acorn or oak nut borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6-18 months to mature, depending on the species. The acorns and leaves contain tannic acid, which helps to guard from fungi and insects. -wikipedia";
     modalTreeSource.textContent =
       "By The original uploader was Snowmanradio at English Wikipedia.(Original text: snowmanradio) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3690937";
   } else if (
@@ -340,7 +340,7 @@ getModalSourceAndFact = (modalTreeSource, modalTreeName, modalTreeFact) => {
       "Christ's Thorn Jujube (Ziziphus Spinachristi)")
   ) {
     modalTreeFact.textContent =
-      "The oldest known Z. spina-christi is located in Ir Ovot, in the south of Israel.[9] It is estimated to be between 1500 and 2000 years old.[10][11] It is believed locally to be the very tree from which Jesus' crown of thorns was made. -wikipedia";
+      "The oldest known Z. spina-christi is located in Ir Ovot, in the south of Israel. It is estimated to be between 1500 and 2000 years old. It is believed locally to be the very tree from which Jesus' crown of thorns was made. -wikipedia";
     modalTreeSource.textContent =
       "By Meincluded - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=76058112";
   } else if ((modalTreeName.textContent = "Siberian Larch (Larix Sibricia)")) {
